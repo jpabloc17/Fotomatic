@@ -350,3 +350,43 @@ header .mobile {
 #quotes-section .quote-citation {
   height: 1.875rem;
 }
+
+@media only screen and (max-width: 760px) {
+  #quotes-section .content {
+    padding: 1.875rem 0.625rem;
+  }
+
+  #quotes-section .quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  #quotes-section .quote-citation {
+    display: block;
+    padding-top: 1rem;
+    margin: auto;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: #9b9b9b;
+  padding: 1.5rem 2rem;
+}
+
+footer .content {
+  color: #fff;
+  display: flex;
+  font-size: 0.75rem;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 760px) {
+  footer .content {
+    font-size: 0.625rem;
+  }
+}
